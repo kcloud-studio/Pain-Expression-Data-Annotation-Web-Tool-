@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <!--引入外部的js文件-->
+    <script src="{{ url_for('static', filename='js/jquery-3.5.0.js') }}" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='js/tagging.js') }}" type="text/javascript"></script>
+
+    <!--引入外部的css文件-->
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/tagging.css') }}"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.8, maximum-scale=3.0, user-scalable=yes">
+    <meta charset="UTF-8">
+
+    <title id="nameoftagging">开始界面</title>
+</head>
+<body>
+<div id="container" style="width: 600px; height: 400px;">
+
+    <div id="backboard" style="background-color:#FFD700;height:300px;width:600px;float:left;">
+        <b id="first_text" style="margin-bottom:0;">点击中间白色框开始标注</b><br>
+
+        <button  type="button" id="touchtostart" onclick="fun01()" onclick="fun02()">点击开始</button>
+        <img id="baby_face" src="{{ url_for('static', filename='img/logo.jpg') }}" width="304" height="228">
+
+    </div>
+
+    <div id="backboard02" style="background-color:#FFA500;height:100px;width:600px;float:left;">
+
+        <button id="column1" onclick="changeword();count_yes()">请勿点击</button>
+        <button id="column2" onclick="changeword();count_no();error_count()">请勿点击</button>
+    </div>
+
+</div>
+</body>
+</html>

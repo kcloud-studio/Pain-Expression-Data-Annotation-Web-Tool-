@@ -1,0 +1,57 @@
+/*自适应设备宽度*/
+@media screen and (min-width: 320px) and (max-width: 1156px){
+
+    .site-bg-dl {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:100% 100%;
+        -moz-background-size:100% 100%;
+    }
+}
+
+
+/*定义总体位置*/
+#container{
+    width: 400px; height: 600px;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFA500;
+}
+
+
+
+
+#touchtostart{
+    z-index: 99999;
+    position: absolute; left: 50%; top: 40%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    width: 304px; height: 228px;
+}
+
+
+#baby_face{
+    position: absolute; left: 50%; top: 40%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    width: 304px; height: 228px;
+}
+
+#column1{
+    background-color: #FFD700;
+    width: 25%;
+    height: 30%;
+    margin-left:150px;
+    margin-top: 25px;
+}
+
+
+#column2{
+    background-color:#FFD700;
+    width: 25%;
+    height: 30%;
+}

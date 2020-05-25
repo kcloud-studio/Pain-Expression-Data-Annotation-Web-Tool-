@@ -1,0 +1,29 @@
+#container{
+    width: 400px; height: 600px;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFA500;
+}
+
+
+#bot01{
+    background-color: #FFD700;
+    width: 25%;
+    height: 30%;
+    margin-left:150px;
+    margin-top: 250px;
+}
+
+#bot02{
+    background-color: #FFD700;
+    width: 25%;
+    height: 30%;
+}
+
+#logo_end{
+    z-index: 99999;
+    position: absolute; left: 50%; top: 30%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    width: 200px; height: 200px;
+}

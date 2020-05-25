@@ -1,0 +1,61 @@
+
+/*自适应设备宽度*/
+@media screen and (min-width: 320px) and (max-width: 1156px){
+
+    .site-bg-dl {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:100% 100%;
+        -moz-background-size:100% 100%;
+    }
+}
+
+
+
+
+/*定义总体位置*/
+#container{
+    width: 400px; height: 600px;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/*定义logo图片的位置*/
+#logoimg
+{
+    position:absolute;
+    left:270px;
+    top:95px;
+}
+
+
+
+
+/*定义侧边选择栏的属性*/
+#menulan{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #FFD700;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* 鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: #FFA500;
+    color: white;
+    }

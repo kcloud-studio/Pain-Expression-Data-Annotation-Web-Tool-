@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <!--引入外部的js文件-->
+    <script src="{{ url_for('static', filename='js/jquery-3.5.0.js') }}" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='js/tag_end.js') }}" type="text/javascript"></script>
+
+        <!--引入外部的css文件-->
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/tag_end.css') }}"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.8, maximum-scale=3.0, user-scalable=yes">
+    <meta charset="UTF-8">
+    <title>标注完成！！！</title>
+</head>
+<body>
+
+<div id="container" style="width: 600px; height: 400px;">
+
+    <img id="logo_end" src="{{ url_for('static', filename='img/logo.jpg') }}" width="304" height="228">
+    <button id="bot01" onclick="goagain()">继续标注</button>
+    <button id="bot02" onclick="goindex()">回到首页</button>
+
+</div>
+
+</body>
+</html>
