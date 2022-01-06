@@ -13,7 +13,7 @@ Babel==2.8.0
 billiard==3.6.3.0
 blurhash==1.1.4
 boost==0.1
-celery==4.4.2
+celery==5.2.2
 certifi==2019.11.28
 cffi==1.13.2
 chardet==3.0.4
