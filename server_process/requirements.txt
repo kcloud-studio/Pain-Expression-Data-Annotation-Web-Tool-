@@ -39,7 +39,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.3
 jmespath==0.9.5
 kombu==4.6.8
-Mako==1.1.2
+Mako==1.2.2
 MarkupSafe==1.1.1
 Mastodon.py==1.5.1
 numpy==1.18.2
