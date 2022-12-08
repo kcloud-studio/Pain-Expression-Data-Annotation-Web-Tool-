@@ -14,7 +14,7 @@ billiard==3.6.3.0
 blurhash==1.1.4
 boost==0.1
 celery==4.4.2
-certifi==2019.11.28
+certifi==2022.12.7
 cffi==1.13.2
 chardet==3.0.4
 click==7.1.1
